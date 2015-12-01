@@ -30,6 +30,11 @@ Quando aparecer o símbolo de confirmado na parte inferior da janela ao lado da 
 Na aba "Config" estará desse jeito.</br>
 ![Instalando4](https://raw.githubusercontent.com/GEEE-UEFS/ESP8266/master/images/4.png)</br>
 
+##IDE para upload
+Uma boa opção de IDE para gravar arquivos no módulo é o Esplorer que possui suporte para Windowns(x86, x86-64), Linux(x86,, x86-64, ARM soft & hard float), Solaris(x86, x86-64), Mac OS X(x86, x86-64, PPC, PPC64).
+O download pode ser feito no link: </br>
+	http://esp8266.ru/esplorer-latest/?f=ESPlorer.zip
+
 ###Bibliotecas Disponiveis
 #####GPIO
 
