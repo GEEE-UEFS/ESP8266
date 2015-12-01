@@ -1,25 +1,27 @@
-#ESP8266
-O objetivo desse projeto é disponibilizar um material de consulta com exemplos prontos e comentados para quem deseja se aventurar no ESP8266 utilizando o firmware NodeMCU.
+#ESP8266 e NodeMCU
+O ESP8266 é fabricado pela Espressif Systems e possui um SoC Wi-Fi integrado com um chip Tensilica Xtensa LX106 e usando o firmware open-source NodeMCU é possível criar aplicações IoT com scripts em Lua.</br>
 
-###O que precisa para começar
+O principal objetivo desse projeto é disponibilizar um material de consulta fornecendo exemplos prontos e comentados que irão guiar seus projetos em IoT utilizam o ESP8266+NodeMCU.</br></br>
 
-Para começar a usar você, além do ESP8266, você precisa de um conversor usb/uart e  uma fonte de alimentação de 3.3V.
-As ligações necessárias podem ser vistas na imagem abaixo.</br></br>
+##O que você precisa para começar
 
-Para usar o esp no modo de atualização de firmware, devem ser feitas as ligações em vermelho, preto e pontilhado.</br>
-Para gravação de arquivos, fazer as ligações em vermelho e preto.</br>
-Para ligar o módulo basta fazer as ligações em preto(fonte de alimentação 3,3v e o GND).</br>
-
+Além do ESP8266, você precisa de um conversor usb/uart e  uma fonte de alimentação de 3.3V.</br>
+As ligações necessárias podem ser vistas na imagem abaixo.</br>
 
 ![ligacoes](https://raw.githubusercontent.com/GEEE-UEFS/ESP8266/master/images/Liga%C3%A7%C3%B5es%20ESP.png)</br>
 
-#Instalando o nodeMCU
-O nodeMCU permite a programação via scripts em Lua.</br>
-Download do nodeMCU-flasher para: </br>
-	-Windowns de 32 bits https://github.com/nodemcu/nodemcu-flasher/tree/master/Win32/Release</br>
-	-Windowns de 64 bits https://github.com/nodemcu/nodemcu-flasher/tree/master/Win64/Release</br>
+Há basicamente três modulos de operação: atualização de firmware, upload de novos programas e modo de operação.</br>
+Para atualização de firmware, todas as ligações apresentadas na imagem acima devem ser utilizadas.</br>
+Para upload de novos programas, apenas as ligações em preto e vermelho.</br>
+Para o modo de operação, é necessario apenas as ligações em preto.</br></br>
 
-Clique no botão Flash(F).</br>
+##Instalando o nodeMCU
+###Windows
+Download do nodeMCU-flasher para: </br>
+	-32 bits: https://github.com/nodemcu/nodemcu-flasher/tree/master/Win32/Release</br>
+	-64 bits: https://github.com/nodemcu/nodemcu-flasher/tree/master/Win64/Release</br>
+
+Após o download, conecte o módulo ao computador conforme as instruçõescom para o modo atualização de firmare e abra o executável e clique no botão Flash(F).</br>
 ![Instalando1](https://raw.githubusercontent.com/GEEE-UEFS/ESP8266/master/images/1.png)</br>
 Espere até o processo ser concluido.</br>
 ![Instalando2](https://raw.githubusercontent.com/GEEE-UEFS/ESP8266/master/images/2.png)</br>
